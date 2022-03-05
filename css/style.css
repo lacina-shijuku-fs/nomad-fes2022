@@ -1,0 +1,459 @@
+html {
+    font-size: 100%;
+  }
+
+body {
+    font-family:"ニコモジ＋","Hiragino Sans", "Meiryo", sans-serif;
+    background-color: #fff;
+    color: #0D536D;
+  }
+
+img {
+    width: 100%;
+  }
+
+h1 {
+    margin:0 30px;
+    font-size: 40px;
+}
+
+h2 {
+    margin:200px auto 80px;
+    font-size: 40px;
+}
+
+h3 {
+    margin:30px auto;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#main-visual img{
+    width: 100%;
+    height: 100%
+}
+
+.question {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.question img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.question img:first-child {
+    transform: scale(-1, 1);
+}
+
+.question-text {
+    position: relative;
+}
+
+.question-text::after {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    width: 3px;
+    height: 80px;
+    background-color: #0D536D;
+}
+
+.frame {
+    position: relative;
+    width: 850px;
+    height: 140px;
+    margin: 140px auto 120px;
+}
+
+.frame img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frame-text {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.lesson-container {
+    display: flex;
+    justify-content: center;
+}
+
+.lesson-container li{
+    text-align: center;
+    width: 250px;
+}
+
+.lesson-container img {
+    height: 230px;
+}
+
+.lesson-margin {
+    margin: 0 75px;
+}
+
+.lesson-margin-top {
+    margin-top: 100px;
+}
+
+.lesson-last-li {
+    margin-left: 30px;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn {
+    margin: 100px 0 200px;
+    display: inline-block;
+    padding: 35px 100px;
+    background-color: #FDE6E2; /* 背景色 */
+    box-shadow: 0 5px 0 #F6B7AA; /* 影の太さ・色 */
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none; /* 文字の下線を消す */
+    font-size: 30px;
+}
+
+.btn:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.nomad {
+    background-color: #FAE06A;
+    padding: 90px 20px 120px;
+    text-align: center;
+    position: relative;
+}
+
+.nomad-text {
+    max-width: 650px;
+    margin: auto;
+}
+
+.tape{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    transform: rotate(25deg);
+}
+
+.tape1 {
+    top: 0;
+    right: 20px;
+}
+
+.tape2 {
+    bottom: 0;
+    left: 20px;
+}
+
+.about {
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.about-items {
+    margin-bottom: 60px;
+}
+
+.about-title {
+    font-size: 30px;
+    padding: 30px 0;
+    background-color: #F6B7AA;
+}
+
+.about-text {
+    padding: 30px 0;
+    background-color: #FDE6E2;
+}
+
+.youtube {
+    color: brown;
+}
+
+.staff {
+    position: relative;
+    background-color: #FAE06A;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+    padding: 0 10px;
+}
+
+.staff-container li {
+    max-width: 250px;
+}
+
+.staff-container img{
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.staff-margin {
+    margin: 0 40px;
+}
+
+.message p{
+    font-size: 40px;
+}
+
+.dot {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+}
+
+.dot1 {
+    top: -40px;
+    right: 50px;
+}
+
+.dot2 {
+    bottom: -40px;
+    left: 50px;
+}
+
+footer {
+    background-color: #E8E6E6;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tel {
+    font-size: 28px;
+}
+
+.footer-img {
+    width: 146px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:960px) {
+
+    h1 {
+        margin:0 30px;
+        font-size: 30px;
+    }
+
+    h2 {
+        margin:200px auto 80px;
+        font-size: 30px;
+    }
+
+    h3 {
+        margin:30px auto;
+    }
+
+    .question img {
+        width: 120px;
+    }
+
+    .frame {
+        width: 90%;
+    }
+
+    .frame-text {
+        font-size: 25px;
+    }
+
+    .frame img {
+        width: 500px;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+    }
+
+    .lesson {
+        padding: 0 20px;
+    }
+
+    .lesson-container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .lesson-margin {
+        margin: 0 25px;
+    }
+
+    .about {
+        max-width: 550px;
+    }
+
+    .dot {
+        position: absolute;
+        width: 150px;
+        height: 40px;
+    }
+
+    .dot1 {
+        top: -20px;
+        right: 25px;
+    }
+
+    .dot2 {
+        bottom: -20px;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .staff-container {
+        display: block;
+        margin: 0;
+    }
+
+    .staff-margin {
+        margin: 0 50px;
+    }
+
+    .staff-container li {
+        margin: 40px auto;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footer-info {
+        text-align: center;
+    }
+
+    .footer-img {
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    h1 {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    h2 {
+        margin:100px auto 40px;
+        font-size: 20px;
+    }
+
+    h3 {
+        margin:18px auto;
+        font-size: 20px;
+    }
+
+    .question img {
+        width: 50px;
+    }
+
+    .question-text::after {
+        top: 40px;
+        height: 40px;
+    }
+
+    .frame {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .frame-text {
+        font-size: 14px;
+    }
+
+    .frame img {
+        width: 300px;
+    }
+
+    .lesson-container {
+        display: block;
+    }
+
+    .lesson-container li {
+        margin: 40px auto;
+    }
+
+    .lesson-margin {
+        margin: 0;
+    }
+
+    .lesson-margin-top {
+        margin-top: 0;
+    }
+
+    .lesson-last-li {
+        margin-bottom: 0!important;
+    }
+
+    .about {
+        max-width: 300px;
+    }
+
+    .about-title {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .dot {
+        position: absolute;
+        width: 150px;
+        height: 40px;
+    }
+
+    .dot1 {
+        top: -20px;
+        right: 25px;
+    }
+
+    .dot2 {
+        bottom: -20px;
+        left: 25px;
+    }
+
+    .btn {
+        margin-top: 80px;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .tape{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        transform: rotate(25deg);
+    }
+
+    .message p {
+        font-size: 20px;
+    }
+}
