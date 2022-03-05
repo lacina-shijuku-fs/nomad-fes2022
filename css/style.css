@@ -82,7 +82,7 @@ p {
 
 .frame-text {
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -283,7 +283,7 @@ footer {
     }
 
     .frame-text {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .frame img {
@@ -387,7 +387,7 @@ footer {
     }
 
     .frame-text {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .frame img {
