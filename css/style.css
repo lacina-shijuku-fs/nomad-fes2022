@@ -383,6 +383,7 @@ footer {
     .question-text::after {
         top: 40px;
         height: 40px;
+        width: 2px;
     }
 
     .frame {
